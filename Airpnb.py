@@ -31,7 +31,7 @@ with st.sidebar:
 
 
 #reading the cleaned dataframe
-df = pd.read_csv(r'C:\Users\Muthusamy\Documents\PROJECTS-2023\4.Airbnb_Project\airbnb_data.csv')
+df = pd.read_csv(r'C:\Users\Sanjeevi\Documents\PROJECTS-2023\4.Airbnb_Project\airbnb_data.csv')
 #home page
 if selected == "Home":
     col1,col2 = st.columns(2,gap= 'large')
@@ -44,7 +44,7 @@ if selected == "Home":
         st.write(" To analyze Airbnb data using MongoDB Atlas, perform data cleaning and preparation, develop interactive visualizations. Create dynamic plots to gain insights into pricing variations, availability patterns, and location-based trends.")
         
     with col2:
-        col2.image(Image.open(r"C:\Users\Muthusamy\Pictures\Wallpapers\download (3).jpeg"), width=300)
+        col2.image(Image.open(r"C:\Users\Sanjeevi\Pictures\Wallpapers\download (3).jpeg"), width=300)
 
 # OVERVIEW PAGE
 if selected == "Overview":
